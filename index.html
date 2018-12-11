@@ -1,7 +1,599 @@
-<html> 
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>
-Hey
-</h1>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="lineDrawing"> <svg viewBox="-100 0 500 600" style="padding-top: 200px;">
+      <!-- <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1" class="lines"> -->
+      <g id="svgGroup" stroke-width="1" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="currentColor" fill="none" class="lines"><path d="M 105.9 65.6 L 107.4 64.3 A 31.994 31.994 0 0 0 111.618 67.79 A 24.967 24.967 0 0 0 115.75 70.1 A 22.434 22.434 0 0 0 121.656 71.73 A 29.235 29.235 0 0 0 125.7 72 Q 131.858 72 136.162 69.889 A 16.13 16.13 0 0 0 138.2 68.7 A 10.968 10.968 0 0 0 141.645 65.013 Q 142.831 62.891 142.979 60.185 A 14.355 14.355 0 0 0 143 59.4 A 10.78 10.78 0 0 0 142.817 57.357 Q 142.576 56.112 142.02 55.116 A 6.455 6.455 0 0 0 141.8 54.75 A 9.112 9.112 0 0 0 139.989 52.731 A 12.356 12.356 0 0 0 138.3 51.55 Q 136.323 50.39 133.534 49.525 A 34.553 34.553 0 0 0 132.6 49.25 A 153.075 153.075 0 0 0 129.095 48.318 Q 127.117 47.816 124.9 47.3 A 295.316 295.316 0 0 1 121.905 46.571 Q 120.721 46.276 119.645 45.996 A 165.154 165.154 0 0 1 117.6 45.45 Q 114.5 44.6 112.45 43.3 A 9.322 9.322 0 0 1 110.368 41.527 A 8.203 8.203 0 0 1 109.35 40.05 A 7.993 7.993 0 0 1 108.632 38.124 Q 108.414 37.218 108.339 36.156 A 16.433 16.433 0 0 1 108.3 35 Q 108.3 31.1 109.8 28.35 Q 111.3 25.6 113.8 23.8 A 16.537 16.537 0 0 1 118.17 21.576 A 19.718 19.718 0 0 1 119.6 21.15 A 27.312 27.312 0 0 1 125.227 20.33 A 31.267 31.267 0 0 1 126.6 20.3 A 30.972 30.972 0 0 1 131.413 20.655 Q 134.142 21.084 136.422 22.034 A 18.255 18.255 0 0 1 137.35 22.45 A 18.521 18.521 0 0 1 140.084 24.052 Q 141.522 25.082 142.497 26.289 A 9.481 9.481 0 0 1 143.5 27.8 L 141.7 28.6 A 10.136 10.136 0 0 0 138.649 25.482 Q 137.28 24.563 135.5 23.9 A 25.841 25.841 0 0 0 127.898 22.347 A 30.176 30.176 0 0 0 126.2 22.3 A 26.428 26.428 0 0 0 121.198 22.762 A 24.016 24.016 0 0 0 120.1 23 A 16.474 16.474 0 0 0 116.826 24.15 A 13.959 13.959 0 0 0 115 25.2 Q 112.8 26.7 111.55 29.05 Q 110.309 31.384 110.3 34.655 A 17.379 17.379 0 0 0 110.3 34.7 A 13.052 13.052 0 0 0 110.41 36.446 Q 110.605 37.893 111.15 38.95 Q 112 40.6 113.8 41.7 A 14.012 14.012 0 0 0 115.428 42.544 Q 116.246 42.907 117.203 43.229 A 27.195 27.195 0 0 0 118.4 43.6 A 114.221 114.221 0 0 0 120.641 44.214 Q 122.625 44.738 125 45.3 Q 129.6 46.4 133.35 47.4 A 32.076 32.076 0 0 1 136.3 48.333 Q 137.707 48.858 138.888 49.477 A 17.841 17.841 0 0 1 139.65 49.9 A 13.06 13.06 0 0 1 141.974 51.62 A 10.493 10.493 0 0 1 143.6 53.55 Q 145 55.7 145 59.1 A 14.268 14.268 0 0 1 144.506 62.908 A 12.433 12.433 0 0 1 143.6 65.25 Q 142.2 68 139.7 69.95 Q 137.2 71.9 133.6 72.95 Q 130 74 125.7 74 A 28.415 28.415 0 0 1 115.796 72.334 A 25.075 25.075 0 0 1 105.9 65.6 Z M 153 65.6 L 154.5 64.3 A 31.994 31.994 0 0 0 158.718 67.79 A 24.967 24.967 0 0 0 162.85 70.1 A 22.434 22.434 0 0 0 168.756 71.73 A 29.235 29.235 0 0 0 172.8 72 Q 178.958 72 183.262 69.889 A 16.13 16.13 0 0 0 185.3 68.7 A 10.968 10.968 0 0 0 188.745 65.013 Q 189.931 62.891 190.079 60.185 A 14.355 14.355 0 0 0 190.1 59.4 A 10.78 10.78 0 0 0 189.917 57.357 Q 189.676 56.112 189.12 55.116 A 6.455 6.455 0 0 0 188.9 54.75 A 9.112 9.112 0 0 0 187.089 52.731 A 12.356 12.356 0 0 0 185.4 51.55 Q 183.423 50.39 180.634 49.525 A 34.553 34.553 0 0 0 179.7 49.25 A 153.075 153.075 0 0 0 176.195 48.318 Q 174.217 47.816 172 47.3 A 295.316 295.316 0 0 1 169.005 46.571 Q 167.821 46.276 166.745 45.996 A 165.154 165.154 0 0 1 164.7 45.45 Q 161.6 44.6 159.55 43.3 A 9.322 9.322 0 0 1 157.468 41.527 A 8.203 8.203 0 0 1 156.45 40.05 A 7.993 7.993 0 0 1 155.732 38.124 Q 155.514 37.218 155.439 36.156 A 16.433 16.433 0 0 1 155.4 35 Q 155.4 31.1 156.9 28.35 Q 158.4 25.6 160.9 23.8 A 16.537 16.537 0 0 1 165.27 21.576 A 19.718 19.718 0 0 1 166.7 21.15 A 27.312 27.312 0 0 1 172.327 20.33 A 31.267 31.267 0 0 1 173.7 20.3 A 30.972 30.972 0 0 1 178.513 20.655 Q 181.242 21.084 183.522 22.034 A 18.255 18.255 0 0 1 184.45 22.45 A 18.521 18.521 0 0 1 187.184 24.052 Q 188.622 25.082 189.597 26.289 A 9.481 9.481 0 0 1 190.6 27.8 L 188.8 28.6 A 10.136 10.136 0 0 0 185.749 25.482 Q 184.38 24.563 182.6 23.9 A 25.841 25.841 0 0 0 174.998 22.347 A 30.176 30.176 0 0 0 173.3 22.3 A 26.428 26.428 0 0 0 168.298 22.762 A 24.016 24.016 0 0 0 167.2 23 A 16.474 16.474 0 0 0 163.926 24.15 A 13.959 13.959 0 0 0 162.1 25.2 Q 159.9 26.7 158.65 29.05 Q 157.409 31.384 157.4 34.655 A 17.379 17.379 0 0 0 157.4 34.7 A 13.052 13.052 0 0 0 157.51 36.446 Q 157.705 37.893 158.25 38.95 Q 159.1 40.6 160.9 41.7 A 14.012 14.012 0 0 0 162.528 42.544 Q 163.346 42.907 164.303 43.229 A 27.195 27.195 0 0 0 165.5 43.6 A 114.221 114.221 0 0 0 167.741 44.214 Q 169.725 44.738 172.1 45.3 Q 176.7 46.4 180.45 47.4 A 32.076 32.076 0 0 1 183.4 48.333 Q 184.807 48.858 185.988 49.477 A 17.841 17.841 0 0 1 186.75 49.9 A 13.06 13.06 0 0 1 189.074 51.62 A 10.493 10.493 0 0 1 190.7 53.55 Q 192.1 55.7 192.1 59.1 A 14.268 14.268 0 0 1 191.606 62.908 A 12.433 12.433 0 0 1 190.7 65.25 Q 189.3 68 186.8 69.95 Q 184.3 71.9 180.7 72.95 Q 177.1 74 172.8 74 A 28.415 28.415 0 0 1 162.896 72.334 A 25.075 25.075 0 0 1 153 65.6 Z M 98.7 47.1 L 98.7 48.2 L 51.2 48.2 Q 51.6 53.2 53.55 57.55 A 26.536 26.536 0 0 0 57.478 63.86 A 24.504 24.504 0 0 0 58.6 65.1 Q 61.7 68.3 65.75 70.15 Q 69.8 72 74.3 72 Q 77.3 72 80.15 71.2 Q 83 70.4 85.5 68.95 Q 88 67.5 89.9 65.5 Q 91.8 63.5 92.9 61.1 L 94.8 61.6 Q 93.7 64.3 91.65 66.55 Q 89.6 68.8 86.85 70.45 Q 84.1 72.1 80.85 73.05 Q 77.6 74 74.2 74 Q 69.1 74 64.55 71.85 Q 60 69.7 56.6 65.95 A 28.969 28.969 0 0 1 51.231 57.327 A 32.653 32.653 0 0 1 51.2 57.25 Q 49.2 52.3 49.2 46.7 A 28.163 28.163 0 0 1 50.503 38.071 A 26.319 26.319 0 0 1 51.1 36.4 Q 53 31.6 56.35 28 Q 59.7 24.4 64.15 22.35 Q 68.6 20.3 73.7 20.3 Q 78.9 20.3 83.45 22.4 Q 88 24.5 91.35 28.1 A 27.288 27.288 0 0 1 96.179 35.395 A 31.413 31.413 0 0 1 96.7 36.6 A 27.427 27.427 0 0 1 98.698 46.751 A 31.177 31.177 0 0 1 98.7 47.1 Z M 264.3 31.9 L 262.3 32.6 Q 259.7 27.8 254.95 25.05 Q 250.2 22.3 244.5 22.3 Q 239.7 22.3 235.6 24.2 Q 231.5 26.1 228.4 29.4 A 23.724 23.724 0 0 0 223.803 36.573 A 27.168 27.168 0 0 0 223.55 37.2 Q 221.8 41.7 221.8 46.8 Q 221.8 51.9 223.6 56.5 A 25.842 25.842 0 0 0 228.066 64.004 A 24.6 24.6 0 0 0 228.55 64.55 Q 231.7 68 235.8 70 Q 239.9 72 244.6 72 A 21.167 21.167 0 0 0 250.269 71.209 A 23.612 23.612 0 0 0 250.65 71.1 A 25.387 25.387 0 0 0 255.276 69.241 A 23.012 23.012 0 0 0 256.25 68.7 A 19.074 19.074 0 0 0 259.402 66.401 A 16.681 16.681 0 0 0 260.6 65.2 A 12.718 12.718 0 0 0 261.945 63.431 A 9.156 9.156 0 0 0 263 61.1 L 265 61.7 A 14.478 14.478 0 0 1 262.678 65.91 A 16.839 16.839 0 0 1 262.15 66.55 A 19.546 19.546 0 0 1 257.835 70.241 A 21.965 21.965 0 0 1 257.5 70.45 A 24.239 24.239 0 0 1 252.354 72.802 A 27.258 27.258 0 0 1 251.55 73.05 Q 248.3 74 244.9 74 Q 239.8 74 235.2 71.85 Q 230.6 69.7 227.2 66 A 28.15 28.15 0 0 1 222.055 57.964 A 31.921 31.921 0 0 1 221.8 57.35 Q 219.8 52.4 219.8 46.8 A 29.122 29.122 0 0 1 220.914 38.665 A 26.673 26.673 0 0 1 221.7 36.35 A 25.626 25.626 0 0 1 226.173 28.858 A 24.311 24.311 0 0 1 227 27.95 Q 230.4 24.4 234.95 22.35 A 23.575 23.575 0 0 1 244.305 20.305 A 27.137 27.137 0 0 1 244.8 20.3 A 24.387 24.387 0 0 1 251.766 21.265 A 21.156 21.156 0 0 1 256.55 23.35 Q 261.7 26.4 264.3 31.9 Z M 311.7 46.2 L 311.7 40.3 A 23.265 23.265 0 0 0 311.254 35.666 A 19.603 19.603 0 0 0 310.5 32.95 A 16.639 16.639 0 0 0 308.473 28.984 A 14.741 14.741 0 0 0 307.05 27.25 Q 304.8 24.9 301.65 23.6 Q 298.5 22.3 294.7 22.3 A 19.977 19.977 0 0 0 290.267 22.822 A 26.903 26.903 0 0 0 286.6 23.95 A 36.559 36.559 0 0 0 281.458 26.421 A 46.371 46.371 0 0 0 277.9 28.7 L 276.7 27.1 A 52.464 52.464 0 0 1 282.755 23.514 Q 285.977 21.907 288.964 21.104 A 22.063 22.063 0 0 1 294.7 20.3 A 22.926 22.926 0 0 1 299.542 20.794 A 19.239 19.239 0 0 1 302.55 21.7 A 16.769 16.769 0 0 1 307.256 24.475 A 15.615 15.615 0 0 1 308.55 25.7 A 17.536 17.536 0 0 1 311.756 30.542 A 20.948 20.948 0 0 1 312.35 32 A 22.066 22.066 0 0 1 313.51 36.977 A 28.177 28.177 0 0 1 313.7 40.3 L 313.7 69 A 3.67 3.67 0 0 0 313.766 69.73 Q 314.025 71 315.3 71 L 315.3 73 A 9.426 9.426 0 0 1 314.857 72.99 Q 314.232 72.961 313.972 72.84 A 0.544 0.544 0 0 1 313.9 72.8 A 3.074 3.074 0 0 1 312.544 71.728 A 4.019 4.019 0 0 1 312.3 71.35 A 4.593 4.593 0 0 1 311.705 69.242 A 5.487 5.487 0 0 1 311.7 69 L 311.7 64.2 Q 308.1 68.9 302.3 71.45 A 30.601 30.601 0 0 1 290.973 73.977 A 35.538 35.538 0 0 1 289.7 74 Q 286.2 74 283.1 72.75 Q 280 71.5 277.75 69.35 Q 275.5 67.2 274.2 64.3 Q 272.9 61.4 272.9 58.1 A 12.117 12.117 0 0 1 273.736 53.577 A 11.524 11.524 0 0 1 274.45 52.1 A 13.702 13.702 0 0 1 277.665 48.339 A 16.615 16.615 0 0 1 278.85 47.45 Q 281.7 45.5 285.65 44.4 A 29.79 29.79 0 0 1 290.88 43.455 A 36.79 36.79 0 0 1 294.3 43.3 Q 298.8 43.3 303.4 44.05 A 48.053 48.053 0 0 1 308.226 45.082 A 37.549 37.549 0 0 1 311.7 46.2 Z M 0 69.7 L 1.1 68.1 A 22.15 22.15 0 0 0 9.581 71.572 A 30.648 30.648 0 0 0 15.4 72.1 A 28.267 28.267 0 0 0 19.401 71.835 Q 21.459 71.54 23.147 70.917 A 12.947 12.947 0 0 0 25.55 69.75 Q 29.3 67.4 31.25 63.05 Q 32.933 59.295 33.611 54.086 A 49.395 49.395 0 0 0 33.8 52.4 A 126.029 126.029 0 0 0 34.231 46.12 Q 34.379 42.821 34.397 39.155 A 208.839 208.839 0 0 0 34.4 38.1 L 34.4 2 L 36.4 2 L 36.4 38.1 Q 36.4 46.2 35.75 52.85 A 43.379 43.379 0 0 1 34.905 58.205 Q 34.295 60.898 33.353 63.173 A 25.006 25.006 0 0 1 32.9 64.2 A 17.325 17.325 0 0 1 29.063 69.568 A 16.397 16.397 0 0 1 26.55 71.5 Q 23.275 73.552 18.226 73.984 A 33.125 33.125 0 0 1 15.4 74.1 A 30.784 30.784 0 0 1 7.778 73.197 A 24.123 24.123 0 0 1 0 69.7 Z M 51.2 46.2 L 96.6 46.2 A 29.129 29.129 0 0 0 95.342 39.138 A 26.073 26.073 0 0 0 94.4 36.6 A 26.032 26.032 0 0 0 91.244 31.141 A 23.059 23.059 0 0 0 89.45 29.05 Q 86.4 25.9 82.4 24.1 Q 78.4 22.3 73.8 22.3 Q 69.2 22.3 65.2 24.1 Q 61.2 25.9 58.15 29.1 A 23.802 23.802 0 0 0 53.709 35.752 A 27.456 27.456 0 0 0 53.3 36.7 A 29.057 29.057 0 0 0 51.298 44.936 A 33.194 33.194 0 0 0 51.2 46.2 Z M 206.8 73 L 204.8 73 L 204.8 21.1 L 206.8 21.1 L 206.8 73 Z M 311.7 58.7 L 311.7 48.4 A 46.466 46.466 0 0 0 297.776 45.409 A 54.744 54.744 0 0 0 294.3 45.3 Q 289.9 45.3 286.35 46.2 Q 282.8 47.1 280.25 48.8 A 13.721 13.721 0 0 0 277.686 50.983 A 11.617 11.617 0 0 0 276.3 52.85 A 10.018 10.018 0 0 0 274.902 57.897 A 11.896 11.896 0 0 0 274.9 58.1 Q 274.9 61 276.05 63.55 Q 277.2 66.1 279.2 68 Q 281.2 69.9 283.9 70.95 A 15.692 15.692 0 0 0 289.122 71.991 A 17.983 17.983 0 0 0 289.7 72 A 31.249 31.249 0 0 0 297.626 71.023 A 27.323 27.323 0 0 0 301.95 69.5 A 22.594 22.594 0 0 0 306.121 67.091 A 16.3 16.3 0 0 0 310.2 62.8 A 9.37 9.37 0 0 0 311.112 61.243 Q 311.7 59.952 311.7 58.7 Z M 206.8 7.7 L 204.8 7.7 L 204.8 0 L 206.8 0 L 206.8 7.7 Z" vector-effect="non-scaling-stroke" stroke-dasharray="316.85528564453125"/></g>
+      </g>
+    </svg> </div>
+
+        <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">
+              <!-- <img src="assets/img/logo.png" alt=""> -->
+              <b class="text-info">Jessica Raño</b>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">
+                  Projects
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">
+                  Work
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="onepage-nev mobile-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <!-- <li>
+            <a href="#about">about</a>
+          </li> -->
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#portfolio">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay">
+            <canvas class="fireworks"></canvas>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div class="contents">
+                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi this is</h5>
+                <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Jessica Raño</h2>
+                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Front-end Web Developer and Graphic Designer</p>
+                <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                  <li>
+                    <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="#"><i class="icon-social-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a class="google" href="#"><i class="icon-social-google"></i></a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+     <!-- About Section Start -->
+    <!-- <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+            </div>
+          </div> 
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+              <h3>Hi Guys!</h3>
+              <p>Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et rutrum eleifend sollicitudin lacinia justo id turpis. Nec convallis integer. Odio eget duis. Nulla aenean et. Blandit varius sollicitudin. Pellentesque leo primis neque urna magnis. Elit ut sollicitudin. Et est a nam dolores eget itaque sagittis et parturient duis est eleifend sociis rutrum odio viverra integer.</p>
+              <div class="about-profile">
+                <ul class="admin-profile">
+                  <li><span class="pro-title"> Name </span> <span class="pro-detail">Tom Saulnier</span></li>
+                  <li><span class="pro-title"> Age </span> <span class="pro-detail">25 Years</span></li>
+                  <li><span class="pro-title"> Experience </span> <span class="pro-detail">4 Years</span></li>
+                  <li><span class="pro-title"> Country </span> <span class="pro-detail">USA</span></li>
+                  <li><span class="pro-title"> Location </span> <span class="pro-detail">San Francisco, CA</span></li>
+                  <li><span class="pro-title"> e-mail </span> <span class="pro-detail">email@example.com</span></li>
+                  <li><span class="pro-title"> Phone </span> <span class="pro-detail">+ (00) 123 456 789</span></li>
+                  <li><span class="pro-title"> Freelance </span> <span class="pro-detail">Available</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+              <a href="#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </section> -->
+    <!-- About Section End -->
+
+     <!-- Services Section Start -->
+    <section id="projects" class="services section-padding">
+      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <!-- Services item -->
+          <div class="col-sm-12 col-md-4">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="icon-grid"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Bravura Fashion</a></h3>
+                <p>Bravura Fashion is an E-Commerce solution made using Opencart.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-sm-12 col-md-4">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="icon-layers"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">E-Governance Management System</a></h3>
+                <p>The system is made without any plugins and framework of php. It is catered for Barangay Valenzuela Makati City for their E-Governance proceedings.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-sm-12 col-md-4">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
+              <div class="icon">
+                <i class="icon-briefcase"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">EVENT MANAGEMENT SYSTEM</a></h3>
+                <p>Event management system is a web application that provides an organized collection of events, storage and communication of information.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+<!-- Resume Section Start -->
+    <div id="resume" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="education wow fadeInRight" data-wow-delay="0.3s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-graduation"></i>
+                  <h2 class="timelin-title">Education</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">University of Makati</h3>
+                    <span>2015 - Present</span>
+                    <p class="line-text">Dean's Lister from 1st to 4th year</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Higher School of UMak</h3>
+                    <span>2013 - 2015</span>
+                    <p class="line-text">Theatre and other organization member</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-briefcase"></i>
+                  <h2 class="timelin-title">Experience</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">GTI - Sutherland</h3>
+                    <span>Nov 2018 - Dec 2018</span>
+                    <p class="line-text">CFAT, Computer Troubleshooting, Avaya Setup, Cable Management and other Hardware Activities</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Cashier - Jollibee</h3>
+                    <span>Nov 2016 - Dec 2017</span>
+                    <p class="line-text">Customer Services</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Resume Section End -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">        
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
+        <div class="row">          
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".design">
+                Design 
+              </a>
+              <a class="filter btn btn-common" data-filter=".development">
+                Development
+              </a>
+              <a class="filter btn btn-common" data-filter=".print">
+                Print 
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-1.jpg" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-2.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-3.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-4.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-5.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-6.jpg" alt=""/>
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
+
+    <!-- Counter Area Start-->
+    <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.3s">
+              <div class="icon"><i class="icon-briefcase"></i></div>
+              <div class="counterUp">5</div>
+              <p>Project Working</p>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon"><i class="icon-check"></i></div>
+              <div class="counterUp">5</div>
+              <p>Project Done</p>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.9s">
+              <div class="icon"><i class="icon-diamond"></i></div>
+              <div class="counterUp">15</div>
+              <p>Awards Received</p>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon"><i class="icon-heart"></i></div>
+              <div class="counterUp">10</div>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter Area End-->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">      
+      <div class="contact-form">
+        <div class="container">
+          <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="contact-block">
+                <h2>Contact Form</h2>
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>                                 
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+                     <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group"> 
+                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="submit-button">
+                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                        <div class="clearfix"></div> 
+                      </div>
+                    </div>
+                  </div>            
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="footer-right-area wow fadeIn">
+                <h2>Contact Address</h2>
+                <div class="footer-right-contact">
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>Makati</p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <p><a href="mailto:jessyrano311@gmail.com">jessyrano311@gmail.com</a></p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <p><a href="#">09295521733</a></p>
+                    <p><a href="#">09357160446</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-12">
+            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"></object>
+            </div> -->
+          </div>
+        </div>
+      </div>   
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+              <ul class="social-icon">
+                <li>
+                  <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                </li>
+                <li>
+                  <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-linkedin"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-google"></i></a>
+                </li>
+              </ul>
+              <p>Copyright © 2018 All Right Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
 
 </html>
