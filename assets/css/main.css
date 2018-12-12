@@ -725,7 +725,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   top: 0px;
   left: 0px;
   background: #0c0808;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 #hero-area .contents {
@@ -905,7 +905,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 /* Services Item */
 .services {
-  background: #F0F0F0;
+  background-color: #9e9e9e;
+ 
+ 
 }
 
 .services-item {
