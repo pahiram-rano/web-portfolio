@@ -1,13 +1,8 @@
-.fireworks{
-/*	position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: cover;
-    z-index: -1;*/
-}
-
+@import url('https://fonts.googleapis.com/css?family=Changa');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 .lineDrawing, svg{
 	position: fixed;
     top: 0;
@@ -16,4 +11,35 @@
     bottom: 0;
     background-size: cover;
     z-index: -1;
+}
+
+.nav-link{
+    font-family: 'Changa', sans-serif;
+ }
+ 
+.head-title{
+    font-family: 'Fredoka One', cursive;
+}
+.line-title{
+    font-family: 'Philosopher', sans-serif;
+}
+.script-font{
+    font-family: 'Poppins', sans-serif;
+}
+.section-title{
+    font-family: 'Raleway', sans-serif;   
+}
+.services-title{
+    font-family: 'Raleway', sans-serif;     
+}
+
+
+
+.anim, .anim svg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.anim path {
+  stroke-width: 2;
 }

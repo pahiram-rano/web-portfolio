@@ -518,12 +518,21 @@ a.back-to-top:hover, a.back-to-top:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link i:hover {
-  color: #21cff3;
+.navbar-expand-lg .navbar-nav li.active a > i{
+  color: #ffd1dc;
+}
+
+.onepage-nev{
+  float: right;
+  margin-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link i{
+  color: #fff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #333;
+  color: #fff;
   font-weight: 700;
   padding: 0 17px;
   margin-top: 15px;
@@ -777,7 +786,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   Portfolio Section
    ========================================================================== */
 #portfolios {
-  background: #333;
+  /*background: #333;*/
 }
 
 #portfolios .mix {
@@ -904,7 +913,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 /* Services Item */
 .services {
-  background-color:#333;
+  /*background-color:#333;*/
  
  
 }
@@ -978,7 +987,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .contact-form-area {
   background: #fff;
-  box-shadow: 0 0 30px #ededed;
   padding: 60px 40px;
 }
 
